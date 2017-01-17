@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.federico.pablo.pantallaprincipal.MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"
+            android:text="ULTIMO PARTIDO!" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5px"
+            android:layout_marginBottom="5px">
+
+            <TableRow>
+                <ImageView android:src="@mipmap/ic_launcher"
+                    android:layout_weight="1"/>
+                <ImageView android:src="@mipmap/ic_launcher"
+                    android:layout_weight="1"/>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1"
+                    android:gravity="center"/>
+                <TextView android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:layout_weight="1"
+                    android:gravity="center"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Estadio"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Arbitro"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Goles"/>
+             </TableRow>
+            <TableRow>
+                <TextView android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Incidencias"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Video"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TableRow>
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Puntaje quemero del partido"/>
+            </TableRow>
+            <TableRow>
+                 <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                     android:layout_weight="1"/>
+                <Button android:text="Vota"
+                    android:textColor="@android:color/white"
+                    android:background="@android:color/holo_red_dark"/>
+            </TableRow>
+
+        </TableLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"
+            android:text="PROXIMO PARTIDO" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5px"
+            android:layout_marginBottom="5px">
+
+            <TableRow>
+                <ImageView android:src="@mipmap/ic_launcher"
+                    android:layout_weight="1"/>
+                <ImageView android:src="@mipmap/ic_launcher"
+                    android:layout_weight="1"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Estadio"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Arbitro"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Historial"/>
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"
+            android:text="ULTIMA NOTICIA" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5px"
+                android:layout_marginBottom="5px">
+
+                <TextView android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="asdkjhasjhdjkashdasd"/>
+            </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"
+            android:text="ENCUESTA SEMANAL" />
+
+
+    </LinearLayout>
+</ScrollView>
